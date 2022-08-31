@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFF;
+}
+
+a {
+    text-decoration:none; 
+}
+
+li {
+    list-style: none;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+
+.logo {
+    margin: 20px 0 0 0;
+    line-height: 0;
+    text-align: center;
+}
+
+li {
+    margin: 7px 0;
+}
+
+h2 {
+    color: #F09A60;
+}
+
+h3 {
+    border-bottom: 3px dotted #3f5170
+}
+
+.wrapper {
+    margin: 0 auto 100px auto;
+    padding: 0 0 0 0;
+    max-width:70%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.keyvisual {
+    margin: 0 auto 0 auto;
+    max-width:80%;
+}
+
+.information{
+    margin: 0px 4px 0px 0px ;
+}
+
+
+.bg_pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    opacity: 0.6;
+    z-index: -1;
+}
+.Polka_v2 {
+    background-image:  radial-gradient(#ffc107 2px, transparent 2px), radial-gradient(#ffc107 2px, #ffffff 2px);
+    background-size: 40px 40px;
+    background-position: 0 0,20px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .nitgc_bungei {
+        width: 80%;
+    }
+    .signboard {
+        width: 100%;
+    }
+    .wrapper {
+        margin: 0 auto 100px auto;
+        padding: 0 0 0 0;
+        max-width:90%;
+    }
+}
